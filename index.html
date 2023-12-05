@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#"> <!-- favicon.ico error fixed by adding this code -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">                                                                                              <!-- Was trying to implement bootstrap CSS, but had to prioritize my local CSS as I am still learning bootstrap5-->
+    <title>Milestone Blackjack Class 10</title>
+</head>
+<body>
+  <div id="chip"><img src="assets/cardStack.png" alt="cards showing"></div>                                                                 <!-- bouncing object referenced at https://css-tricks.com/bounce-element-around-viewport-in-css/ (https://pngimg.com/uploads/poker/poker_PNG91.png)-->
+  <div class="container">
+    <div class="d-flex justify-content-end"><button id="muteButton" type="button" class="btn btn-danger btn-sm">Music Off</button></div>
+    <div id="chip2"><img src="assets/vegasSign.png" alt="vegas sign image" width="300" height="200"></div>                                  <!-- https://www.vhv.rs/dpng/d/418-4183030_letrero-welcome-to-fabulous-las-vegas-hd-png.png-->
+    <div class="text-white">
+      <h1 id="pangalan"><img src="assets/blackjackLogo.png"></h1>            <!--font source: https://fontmeme.com/ -->
+      <img id="talata" src="assets/invite.png">
+      <h2 id="kanya">💵 <img src="assets/boss.png" alt="dealer text"> <span id="sumaTangeroTutal"></span></h2>                                                   
+        
+        <p id="tangero">
+          <img id="tagoMo" src="./assets/hide.png">
+          </p>
+          <h2 id="iyo">🃏 <img src="assets/ucard.png" alt="player text"> <span id="barahaKo"></span></h2>
+            <p id="etoNa"></p>
+            <p id="bioData"></p>
+
+          <button id="umpisa" type="button" class="btn btn-primary btn-lg"><span>Hit Me!</span></button>
+          <br>
+          <button id="kuha" type="button" class="btn btn-success btn-lg">Stay</button>
+          <form>
+            <input id="f5" value="New Game" onclick="history.go(0)" type="button" class="btn btn-warning">                                                            <!--'History.go() method' = https://developer.mozilla.org/en-US/docs/Web/API/History/go-->
+          </form>
+          <h3 id="sumaTotal"></h3>
+          <h2 id="sugarol"></h2>
+          
+    <h6><p>Press the top button to start the game</p>
+    <p>Press the 'Stay' button to reveal the dealers cards</p></h6>
+    </div>
+    </div>
+    </div>
+    
+    <audio id="tunog1" src="assets/bonus.wav"></audio>
+    <audio id="tunog2" src="assets/bell.wav"></audio>
+    <audio id="tunog3" src="assets/yahoo.mp3"></audio>
+    <audio id="tunog4" src="assets/lose.wav"></audio>
+    <audio id="tunog5" src="assets/again.mp3"></audio>
+
+    <div class="rolling">                                                                                                                                             <!--scrolling animation assets-->
+      <img class="gulong" src="./assets/12-C.png">
+      <img src="./assets/12-D.png">
+      <img src="./assets/12-H.png">
+      <img src="./assets/12-S.png">
+      <img src="./assets/13-C.png">
+      <img src="./assets/13-D.png">
+      <img src="./assets/13-H.png">
+      <img src="./assets/13-S.png">
+      <img src="./assets/14-C.png">
+      <img src="./assets/14-D.png">
+      <img src="./assets/14-H.png">
+      <img src="./assets/14-S.png">
+      <img src="./assets/15-C.png">
+      <img src="./assets/15-D.png">
+      <img src="./assets/15-H.png">
+      <img src="./assets/15-S.png">
+      <img src="./assets/16-C.png">
+      <img src="./assets/16-D.png">
+      <img src="./assets/16-H.png">
+      <img src="./assets/16-S.png">
+
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+     
+</body>
+</html>

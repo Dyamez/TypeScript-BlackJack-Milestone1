@@ -1,0 +1,37 @@
+Translation: (rough equivalent)
+
+tago = hidden
+tumpok = stack
+patok = hit
+sumaTangero = dealer
+akingBilang = my deck
+unangBilang = beginning count
+baraha = cards
+linya = line
+kuha = get
+tunog = sound
+latagan = layout
+uri = kind
+kahulugan = meaning
+isa = one
+dalawa = two
+karambola = randomize
+epal = extra
+umpisaLaro = start game
+kuhaTangero = get dealer
+kugaSagot = get answer
+tumpokPik = get pick
+papel = card(without 's')
+akingBilang = my count
+halaga = value
+bawasTungga = results
+damiMo = my result
+damiNya = dealer result
+palo = start game
+pirme = stay
+mensahe = message
+bagay = object
+kilos = move
+tatlo = three
+apat = four
+lima = five

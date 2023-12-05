@@ -1,0 +1,150 @@
+#muteButton {
+    height: 30px;
+    width: 100px;
+}
+
+body {
+    text-align: center;
+    background-size: cover;
+    color: white;
+    background-image: url("assets/background.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+}
+
+#etoNa img {
+    height: 200px;
+    width: 140px;
+    margin: 1px;
+}
+
+#tangero img {
+    height: 200px;
+    width: 140px;
+    margin: 1px;
+}
+
+#umpisa {
+    width: 230px;
+    height: 80px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#kuha {
+    width: 200px;
+    height: 70px;
+    font-size: 25px;
+    margin-bottom: 10px
+}
+
+#f5 {
+    height: 40px;
+    width: 200px;
+    color: black;
+    font-weight: bolder;
+}
+
+#sugarol {
+    color: rgb(236, 230, 64)
+}
+
+#kanya {
+  color: black;
+  padding-top: 10px;
+}
+
+#iyo {
+  color: black
+}
+
+#sumaTangeroTutal {
+  color:rgb(197, 20, 20);
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#barahaKo {
+  color:rgb(197, 20, 20);
+  height: 30px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.rolling {                                              /*reference credit: https://designshack.net/articles/css/infinitephotobanner/  */
+    height: 200px;
+    width: 3440px;
+    margin-bottom: 1px;
+   }
+
+   .gulong {
+    -webkit-animation: smoothmotion 30s linear infinite;
+       -moz-animation: smoothmotion 30s linear infinite;
+        -ms-animation: smoothmotion 30s linear infinite;
+         -o-animation: smoothmotion 30s linear infinite;
+            animation: smoothmotion 30s linear infinite;
+   }
+
+   @keyframes smoothmotion {
+    0% {
+       margin-left: 0px;
+    }
+    100% {
+       margin-left: -10000px;
+    }
+    
+   }
+    
+   @-moz-keyframes smoothmotion {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10000px;
+    }
+    
+   }
+    
+   @-webkit-keyframes smoothmotion {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10000px;
+    }
+    
+   }
+    
+   @-ms-keyframes smoothmotion {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10000px;
+    }
+    
+   }
+    
+   @-o-keyframes smoothmotion {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -10000px;
+    }
+} 
+
+#chip {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  z-index: -1;
+}
+
+#chip2 {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  z-index: -1;
+}
